@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+h1 {
+  background-color: rgba(221, 224, 223, 0.596);
+  color: black;
+  padding: 20px;
+  width: 47%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.videoFeedback {
+  background: #000;
+  height: auto;
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.myRecordedVideo {
+  background: #000;
+  height: auto;
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+.rSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recordedVideo {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.startRecording {
+  background-color: rgb(240, 57, 57);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+.stopRecording {
+  background-color: rgb(218, 213, 213);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+.startRecording:hover {
+  background-color: rgb(201, 45, 45);
+  cursor: pointer;
+}
+
+.downloadVideo {
+  background-color: rgb(240, 57, 57);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.downloadVideo:hover {
+  background-color: rgb(201, 45, 45);
+  cursor: pointer;
+}
+
+.newRecording {
+  background-color: rgb(240, 57, 57);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.newRecording:hover {
+  background-color: rgb(201, 45, 45);
+  cursor: pointer;
+}
+
+/* Styles for all screens */
+
+/* Media query for mobile screens */
+@media screen and (max-width: 425px) {
+  h1 {
+    padding: 10px;
+    font-size: 20px;
+    width: 70%;
+    margin: 10px;
+  }
+
+  .videoFeedback {
+    width: 80%;
+  }
+
+  .startRecording,
+  .stopRecording {
+    padding: 7px;
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  .myRecordedVideo {
+    width: 80%;
+  }
+
+  .btnNewContainer {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .newRecording {
+    margin-top: 20px;
+  }
+}
