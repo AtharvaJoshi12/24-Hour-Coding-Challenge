@@ -15,7 +15,7 @@
 
 // loadScript("https//myscript.js", runAfterLoadScript);
 
-// Pyramid of doom - When we have callback inside callbacks, the code gets difficult to manage.
+// Pyramid of doom or Callback hell - When we have callback inside callbacks, the code gets difficult to manage.
 
 function loadScript(src, callback) {
   setTimeout(() => {
