@@ -9,10 +9,17 @@ let obj = {
   phone: "0792424",
 };
 
+// for in loop
 for (let i in obj) {
   console.log(i, ":", obj[`${i}`]);
 }
 
+// for of loop
 for (let b of "Atharva") {
   console.log(b);
 }
+
+// for each loop
+array.forEach((element) => {
+  console.log(element);
+});
